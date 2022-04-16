@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductImage /> Tests should render correctly with image 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Product"
+    className="productImg undefined"
+    src="./coffee-mug.png"
+  />
+</div>
+`;
+
+exports[`<ProductImage /> Tests should render correctly with no image 1`] = `
+<img
+  alt="Product"
+  className="productImg undefined"
+  src="https://any-image.jpg"
+/>
+`;
